@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52172D55216EF4C8005D15AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52172D54216EF4C8005D15AF /* AppDelegate.swift */; };
+		52172D57216EF4C8005D15AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52172D56216EF4C8005D15AF /* ViewController.swift */; };
+		52172D5A216EF4C8005D15AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52172D58216EF4C8005D15AF /* Main.storyboard */; };
+		52172D5C216EF4CA005D15AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52172D5B216EF4CA005D15AF /* Assets.xcassets */; };
+		52172D5F216EF4CA005D15AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52172D5D216EF4CA005D15AF /* LaunchScreen.storyboard */; };
+		52172D6A216EF4CA005D15AF /* Dzikir_Pagi_PetangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52172D69216EF4CA005D15AF /* Dzikir_Pagi_PetangTests.swift */; };
+		52172D75216EF4CA005D15AF /* Dzikir_Pagi_PetangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52172D74216EF4CA005D15AF /* Dzikir_Pagi_PetangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52172D66216EF4CA005D15AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52172D49216EF4C8005D15AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52172D50216EF4C8005D15AF;
+			remoteInfo = "Dzikir Pagi Petang";
+		};
+		52172D71216EF4CA005D15AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52172D49216EF4C8005D15AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52172D50216EF4C8005D15AF;
+			remoteInfo = "Dzikir Pagi Petang";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52172D51216EF4C8005D15AF /* Dzikir Pagi Petang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dzikir Pagi Petang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52172D54216EF4C8005D15AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52172D56216EF4C8005D15AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52172D59216EF4C8005D15AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52172D5B216EF4CA005D15AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52172D5E216EF4CA005D15AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52172D60216EF4CA005D15AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52172D65216EF4CA005D15AF /* Dzikir Pagi PetangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dzikir Pagi PetangTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52172D69216EF4CA005D15AF /* Dzikir_Pagi_PetangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dzikir_Pagi_PetangTests.swift; sourceTree = "<group>"; };
+		52172D6B216EF4CA005D15AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52172D70216EF4CA005D15AF /* Dzikir Pagi PetangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dzikir Pagi PetangUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52172D74216EF4CA005D15AF /* Dzikir_Pagi_PetangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dzikir_Pagi_PetangUITests.swift; sourceTree = "<group>"; };
+		52172D76216EF4CA005D15AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52172D4E216EF4C8005D15AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D62216EF4CA005D15AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D6D216EF4CA005D15AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52172D48216EF4C8005D15AF = {
+			isa = PBXGroup;
+			children = (
+				52172D53216EF4C8005D15AF /* Dzikir Pagi Petang */,
+				52172D68216EF4CA005D15AF /* Dzikir Pagi PetangTests */,
+				52172D73216EF4CA005D15AF /* Dzikir Pagi PetangUITests */,
+				52172D52216EF4C8005D15AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52172D52216EF4C8005D15AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52172D51216EF4C8005D15AF /* Dzikir Pagi Petang.app */,
+				52172D65216EF4CA005D15AF /* Dzikir Pagi PetangTests.xctest */,
+				52172D70216EF4CA005D15AF /* Dzikir Pagi PetangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52172D53216EF4C8005D15AF /* Dzikir Pagi Petang */ = {
+			isa = PBXGroup;
+			children = (
+				52172D54216EF4C8005D15AF /* AppDelegate.swift */,
+				52172D56216EF4C8005D15AF /* ViewController.swift */,
+				52172D58216EF4C8005D15AF /* Main.storyboard */,
+				52172D5B216EF4CA005D15AF /* Assets.xcassets */,
+				52172D5D216EF4CA005D15AF /* LaunchScreen.storyboard */,
+				52172D60216EF4CA005D15AF /* Info.plist */,
+			);
+			path = "Dzikir Pagi Petang";
+			sourceTree = "<group>";
+		};
+		52172D68216EF4CA005D15AF /* Dzikir Pagi PetangTests */ = {
+			isa = PBXGroup;
+			children = (
+				52172D69216EF4CA005D15AF /* Dzikir_Pagi_PetangTests.swift */,
+				52172D6B216EF4CA005D15AF /* Info.plist */,
+			);
+			path = "Dzikir Pagi PetangTests";
+			sourceTree = "<group>";
+		};
+		52172D73216EF4CA005D15AF /* Dzikir Pagi PetangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52172D74216EF4CA005D15AF /* Dzikir_Pagi_PetangUITests.swift */,
+				52172D76216EF4CA005D15AF /* Info.plist */,
+			);
+			path = "Dzikir Pagi PetangUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52172D50216EF4C8005D15AF /* Dzikir Pagi Petang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52172D79216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi Petang" */;
+			buildPhases = (
+				52172D4D216EF4C8005D15AF /* Sources */,
+				52172D4E216EF4C8005D15AF /* Frameworks */,
+				52172D4F216EF4C8005D15AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dzikir Pagi Petang";
+			productName = "Dzikir Pagi Petang";
+			productReference = 52172D51216EF4C8005D15AF /* Dzikir Pagi Petang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52172D64216EF4CA005D15AF /* Dzikir Pagi PetangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52172D7C216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi PetangTests" */;
+			buildPhases = (
+				52172D61216EF4CA005D15AF /* Sources */,
+				52172D62216EF4CA005D15AF /* Frameworks */,
+				52172D63216EF4CA005D15AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52172D67216EF4CA005D15AF /* PBXTargetDependency */,
+			);
+			name = "Dzikir Pagi PetangTests";
+			productName = "Dzikir Pagi PetangTests";
+			productReference = 52172D65216EF4CA005D15AF /* Dzikir Pagi PetangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52172D6F216EF4CA005D15AF /* Dzikir Pagi PetangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52172D7F216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi PetangUITests" */;
+			buildPhases = (
+				52172D6C216EF4CA005D15AF /* Sources */,
+				52172D6D216EF4CA005D15AF /* Frameworks */,
+				52172D6E216EF4CA005D15AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52172D72216EF4CA005D15AF /* PBXTargetDependency */,
+			);
+			name = "Dzikir Pagi PetangUITests";
+			productName = "Dzikir Pagi PetangUITests";
+			productReference = 52172D70216EF4CA005D15AF /* Dzikir Pagi PetangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52172D49216EF4C8005D15AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mubs;
+				TargetAttributes = {
+					52172D50216EF4C8005D15AF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52172D64216EF4CA005D15AF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52172D50216EF4C8005D15AF;
+					};
+					52172D6F216EF4CA005D15AF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52172D50216EF4C8005D15AF;
+					};
+				};
+			};
+			buildConfigurationList = 52172D4C216EF4C8005D15AF /* Build configuration list for PBXProject "Dzikir Pagi Petang" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52172D48216EF4C8005D15AF;
+			productRefGroup = 52172D52216EF4C8005D15AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52172D50216EF4C8005D15AF /* Dzikir Pagi Petang */,
+				52172D64216EF4CA005D15AF /* Dzikir Pagi PetangTests */,
+				52172D6F216EF4CA005D15AF /* Dzikir Pagi PetangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52172D4F216EF4C8005D15AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52172D5F216EF4CA005D15AF /* LaunchScreen.storyboard in Resources */,
+				52172D5C216EF4CA005D15AF /* Assets.xcassets in Resources */,
+				52172D5A216EF4C8005D15AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D63216EF4CA005D15AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D6E216EF4CA005D15AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52172D4D216EF4C8005D15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52172D57216EF4C8005D15AF /* ViewController.swift in Sources */,
+				52172D55216EF4C8005D15AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D61216EF4CA005D15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52172D6A216EF4CA005D15AF /* Dzikir_Pagi_PetangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52172D6C216EF4CA005D15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52172D75216EF4CA005D15AF /* Dzikir_Pagi_PetangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52172D67216EF4CA005D15AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52172D50216EF4C8005D15AF /* Dzikir Pagi Petang */;
+			targetProxy = 52172D66216EF4CA005D15AF /* PBXContainerItemProxy */;
+		};
+		52172D72216EF4CA005D15AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52172D50216EF4C8005D15AF /* Dzikir Pagi Petang */;
+			targetProxy = 52172D71216EF4CA005D15AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52172D58216EF4C8005D15AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52172D59216EF4C8005D15AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52172D5D216EF4CA005D15AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52172D5E216EF4CA005D15AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52172D77216EF4CA005D15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52172D78216EF4CA005D15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52172D7A216EF4CA005D15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi Petang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-Petang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52172D7B216EF4CA005D15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi Petang/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-Petang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52172D7D216EF4CA005D15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi PetangTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-PetangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dzikir Pagi Petang.app/Dzikir Pagi Petang";
+			};
+			name = Debug;
+		};
+		52172D7E216EF4CA005D15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi PetangTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-PetangTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dzikir Pagi Petang.app/Dzikir Pagi Petang";
+			};
+			name = Release;
+		};
+		52172D80216EF4CA005D15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi PetangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-PetangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dzikir Pagi Petang";
+			};
+			name = Debug;
+		};
+		52172D81216EF4CA005D15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dzikir Pagi PetangUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MubsCompany.Dzikir-Pagi-PetangUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dzikir Pagi Petang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52172D4C216EF4C8005D15AF /* Build configuration list for PBXProject "Dzikir Pagi Petang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52172D77216EF4CA005D15AF /* Debug */,
+				52172D78216EF4CA005D15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52172D79216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi Petang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52172D7A216EF4CA005D15AF /* Debug */,
+				52172D7B216EF4CA005D15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52172D7C216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi PetangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52172D7D216EF4CA005D15AF /* Debug */,
+				52172D7E216EF4CA005D15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52172D7F216EF4CA005D15AF /* Build configuration list for PBXNativeTarget "Dzikir Pagi PetangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52172D80216EF4CA005D15AF /* Debug */,
+				52172D81216EF4CA005D15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52172D49216EF4C8005D15AF /* Project object */;
+}
